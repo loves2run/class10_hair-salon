@@ -24,8 +24,9 @@ html {
   font-size: 16px;
 }
 
-body {
-
+a {
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -72,7 +73,7 @@ nav li {
 /*** MAIN ***/
 main {
   clear: both;
-  height: 1200px;
+  height: 1405px;
 }
 
 .hero-text {
@@ -84,11 +85,14 @@ main {
   height: 600px;
   padding: 190px 20% 50px 20%;
   width: 100%;
+  margin-bottom: 50px;
+  clear: both;
 }
 
 .features {
   float: left;
   width: 30.5%;
+  text-align: center;
 }
 
 .features:nth-child(2) {
@@ -98,8 +102,10 @@ main {
 
 /*** ASIDE ***/
 aside {
-  height: 250px;
-  margin-top: 125px;
+  background-color: #f3f4f6;
+  display: block;
+  height: 350px;
+  margin-top: 100px;
 }
 
 aside section,
@@ -109,22 +115,35 @@ aside figure {
 }
 
 aside section {
-  padding-left: 20%;
+  padding-left: 18%;
 }
 
 aside figure {
   margin: 0;
   text-align: center;
 }
+
+aside img {
+  width: 55%;
+  margin-top: 40px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 /*** TYPOGRAPHY ***/
-h1, h4 {
+h1, h2, h4 {
   color: white;
   font-size: 5rem;
   font-weight: 200;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: black;
+  font-size: 2.7rem;
+  padding-right: 5px;
+  margin-bottom: 20px;
 }
 
 h4,
@@ -138,8 +157,8 @@ main {
 }
 
 .hero-text {
-  padding-left: 12.5%;
-  padding-top: 160px;
+  padding-left: 21%;
+  padding-top: 200px;
   text-transform: uppercase;
 }
 
@@ -148,15 +167,45 @@ main {
   margin-left: 16%;
 }
 
+/*** BUTTON ***/
+.button {
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
 /*** COUPON ***/
 article {
   position: absolute;
   top: 775px;
-  left: 12.5%;
+  left: 21%;
   background-color: black;
   color: white;
-  width: 15%;
-  height: 200px;
+  width: 18%;
+  height: 250px;
+  padding: 40px 30px;
+}
+
+article span:first-child {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+article span > span {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+article .button {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  margin-top: 30px;
 }
 
 .hours-of-operation {
