@@ -151,6 +151,17 @@ h4,
   font-size: 1.125rem;
 }
 
+.logo, .logo-copyright {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+
+.logo-copyright {
+  font-size: 0.5rem;
+  vertical-align: sub;
+}
+
 /*** MAIN STYLES ***/
 main {
   background: no-repeat top left/100% url("../img/hero-img.png");
@@ -164,7 +175,7 @@ main {
 
 .features-container img {
   width: 30%;
-  margin-left: 16%;
+  margin-left: -10%;
 }
 
 /*** BUTTON ***/
