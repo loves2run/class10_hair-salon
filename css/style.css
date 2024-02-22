@@ -251,3 +251,49 @@ article .button {
   right: 26px;
   margin-top: 16px;
 }
+
+/******************************************************
+*******************************************************
+                  LOOKBOOK PAGE STYLES 
+********************************************************
+*******************************************************/
+
+.staff-photos-container {
+  height: 500px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.staff-photos img{
+  width: 25%;
+  float: left;
+  margin: 4%;
+}
+
+.name-title-container {
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  width: 14.5%;
+  height: 8%;
+}
+
+.text-container {
+  color: white;
+  padding-top: 10px;
+}
+
+.name-title-container-1 {
+  top: 410px;
+  left: 295px;
+}
+
+.name-title-container-2 {
+  top: 410px;
+  left: 646px;
+}
+
+.name-title-container-3 {
+  top: 410px;
+  left: 990px;
+}
