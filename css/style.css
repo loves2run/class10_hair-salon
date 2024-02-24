@@ -153,8 +153,8 @@ h4,
 
 .logo, .logo-copyright {
   font-family: "Dancing Script", cursive;
-  font-size: 1.125rem;
-  margin-top: 20px;
+  font-size: 1.8rem;
+  margin-top: 12px;
 }
 
 .logo-copyright {
@@ -286,17 +286,17 @@ main {
 
 .name-title-container-1 {
   top: 410px;
-  left: 295px;
+  left: 293px;
 }
 
 .name-title-container-2 {
   top: 410px;
-  left: 646px;
+  left: 643px;
 }
 
 .name-title-container-3 {
   top: 410px;
-  left: 990px;
+  left: 987px;
 }
 
 .lookbook-coupon {
@@ -324,3 +324,28 @@ main {
 .lookbook-title {
   text-align: center;
 }
+
+.lookbook-photos-section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.lookbook-photo {
+  width: 37%;
+  padding: 10px 1%;
+  position: relative;
+  vertical-align: text-top;
+}
+
+.lookbook-photos-3, .lookbook-photos-6 {
+  width: 24%;
+}
+
+.lookbook-photos-4 {
+  bottom: 400px;
+}
+
+.lookbook-photos-6 {
+  bottom: 402px;
+}
+
