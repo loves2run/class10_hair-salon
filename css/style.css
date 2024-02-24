@@ -191,7 +191,7 @@ main {
 
 
 /*** COUPON ***/
-article {
+.services-coupon {
   position: absolute;
   top: 775px;
   left: 21%;
@@ -202,17 +202,17 @@ article {
   padding: 40px 30px;
 }
 
-article span:first-child {
+.services-coupon span:first-child {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-article span > span {
+.services-coupon span > span {
   font-size: 1.7rem;
   font-weight: 700;
 }
 
-article .button {
+.services-coupon .button {
   background-color: white;
   color: black;
   display: inline-block;
@@ -262,6 +262,7 @@ article .button {
   height: 500px;
   padding-left: 15%;
   padding-right: 15%;
+  margin-bottom: 50px;
 }
 
 .staff-photos img{
@@ -296,4 +297,30 @@ article .button {
 .name-title-container-3 {
   top: 410px;
   left: 990px;
+}
+
+.lookbook-coupon {
+  height: 350px;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 50px; 
+  padding: 25px 0 0 4%;
+  background: #f1f1f1 url(../img/funny-bangs.png) right/25% no-repeat;
+}
+
+.lookbook-coupon-button {
+  padding: 8px;
+}
+
+.lookbook-coupon-text {
+  font-weight: 200;
+}
+
+.lookbook-coupon-text span {
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.lookbook-title {
+  text-align: center;
 }
